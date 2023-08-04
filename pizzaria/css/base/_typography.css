@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Noto+Sans:ital,wght@1,700&family=Poppins:wght@200&display=swap');
+
+.text-small {
+    font-size: var(--t-12);
+    font-family: var(--font-family-merienda);
+}
+.text-medium {
+    font-size: var(--t-16);
+    font-family: var(--font-family-merienda);
+}
+.text-large {
+    font-size: var(--t-15);
+    font-family: 'Merienda';
+    font-weight: 700;
+    font-size: 15px;
+    margin: 24px;
+    
+}
+.titulo_principal{
+    font-size: 48px;
+    font-family: 'Merienda';
+}
+.sobre_empresa{
+    font-size:var(--t-15) ;
+    font-family: 'Merienda';
+    font-weight: 700;
+    font-size: 15px;
+    margin: 24px;
+}
