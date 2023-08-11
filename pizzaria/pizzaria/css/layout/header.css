@@ -1,0 +1,62 @@
+
+header{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px 100px auto;
+    position: relative;
+}
+nav{
+    grid-column: 1/13;
+    grid-row-start: 1;
+}
+.mensagemprincipal{
+    grid-column: 2/8;
+    grid-row-start: 3;
+    font-size: 25px;
+    font-family: 'Merienda';
+    font-weight: 80;
+}
+.imagemprincipal{
+    grid-column: 8/13;
+    grid-row-start: 2;
+    z-index: 1;
+}
+.arredondada{
+    width: 400px;
+    height: 450px;
+    background-color: #e79231;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.titulo_principal{
+    font-size: 65px;
+    font-family: 'Merienda';
+    font-weight: 80;
+}
+.text-large{
+    font-size: 20px;
+    font-family: 'Merienda';
+    font-weight: 80;
+}
+@media (max-widht:700px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-arredondada{
+        display: none;
+    }
+    .mensagemprincipal{
+        padding: 8px;
+    }
+    .imagemprincipal{
+        width: 350px;
+        max-width: 100%;
+        height: auto;
+       
+    }
+}
+

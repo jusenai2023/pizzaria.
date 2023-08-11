@@ -1,0 +1,75 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    background-color: #e79231;
+    color: white;
+}   
+ul , li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Merienda';
+    font-weight: 80;
+}
+.logotipo{
+    width: 96px;
+    height: 96px;
+}
+
+@media (max-widht: 700px){
+    .menu{
+        display: none;
+    }
+}
+.wrapper {
+    --font-color-dark: #323232;
+    --font-color-light: #FFF;
+    --bg-color: #fff;
+    --main-color: #323232;
+    position: relative;
+    width: 250px;
+    height: 36px;
+    background-color: var(--bg-color);
+    border: 2px solid var(--main-color);
+    border-radius: 34px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 4px 4px var(--main-color);
+  }
+  
+  .option {
+    width: 80.5px;
+    height: 28px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+  }
+  
+  .input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    appearance: none;
+    cursor: pointer;
+  }
+  .span {
+    color: var(--font-color-dark);
+  }
+  
+  .input:checked + .btn {
+    background-color: var(--main-color);
+  }
+  
+  .input:checked + .btn .span {
+    color: var(--font-color-light);
+  }
+  
+  
+  
